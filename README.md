@@ -11,27 +11,12 @@ Diogo Cardoso
 diogoc78 dcardoso7891@gmail.com
 
 
-Indice
-1. Descrição do Trabalo...........................................3
-2. Implementação do Trabalho................................3
-3. Funcionamento do trabalho.................................3
-4. Conclusão..............................................................3
-5. Bibliografia.............................................................3
-
 1.	Descrição do Trabalho
 
 Para implementar a função inv_trignometria no servidor e permitir que o cliente envie solicitações para calcular os valores das funções arccos, arcsin e arctg, você precisará de uma arquitetura cliente-servidor que permita a comunicação entre eles. Vou fornecer uma visão geral da arquitetura e um exemplo de implementação em Python usando sockets para a comunicação.
 
 
-
-2.	Implementação do Trabalho	
-O desenvolvimento de uma função no servidor para calcular os valores das funções trigonométricas inversas, como arccos(y), arcsin(y) e arctg(y), é um processo fundamental na implementação de sistemas distribuídos. Nesse contexto, o servidor atua como uma entidade centralizada capaz de processar solicitações provenientes de clientes. A função "inv_trigonometria" proposta permite que o cliente envie uma função trigonométrica desejada juntamente com um argumento, e o servidor retorna o resultado correspondente.
-
-Objetivo:
-O principal objetivo dessa implementação é fornecer uma solução eficiente e flexível para o cálculo de funções trigonométricas inversas em um ambiente distribuído. Isso permite a separação de preocupações, com o servidor especializado em executar cálculos trigonométricos e o cliente encarregado de enviar solicitações e processar os resultados obtidos.
-
-
-3.	Funcionamento do trabalho	
+2.	Funcionamento do trabalho	
 
 Passo 1: Configuração do Ambiente
 pip install Flask requests
@@ -83,7 +68,7 @@ Aqui ,estão as logs do servidor e pudemos ver , o servidor a receber a mensagem
 ![7](https://github.com/diogoc78/Proj/assets/145680518/55d0dbfe-b067-451f-b330-44774eea8b26)
 
  
-4.	Conclusão
+3.	Conclusão
 Neste projeto, implementamos um sistema distribuído que permite o cálculo de funções trigonométricas inversas de forma centralizada em um servidor remoto. A função inv_trigonometria foi projetada para aceitar solicitações contendo a função trigonométrica desejada e o argumento, retornando os resultados correspondentes ao cliente.
 
 O que foi feito:
